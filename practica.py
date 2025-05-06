@@ -31,4 +31,3 @@ def juego_adininanza():
 
 juego_adininanza()
 
-# 6:00:04 ME QUEDE

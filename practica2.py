@@ -53,3 +53,4 @@ def juego_ahorcado():
         print(f"Se acabron los intentos, la palabra era {palabra_secreta}")
 
 juego_ahorcado()
+

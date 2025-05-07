@@ -1,0 +1,32 @@
+
+###
+GET http://localhost:8000/cursos/
+ 
+###
+DELETE http://localhost:8000/cursos/0a834a09-a5c6-4086-ab81-a6f38d3edcc8
+
+###
+PUT http://localhost:8000/cursos/0a834a09-a5c6-4086-ab81-a6f38d3edcc8
+Content-Type: application/json
+
+{
+    "nombre":"Python desde cero en 2025",
+    "description":"En este curso veremos las bases de python",
+    "nivel":"Inicial",
+    "duracion":7
+}
+
+###
+GET http://localhost:8000/cursos/526d3c72-b930-48f9-a294-9c6286fc5d5d
+
+###
+POST http://localhost:8000/cursos/
+Content-Type: application/json
+
+{
+    "nombre":"Python desde cero",
+    "description":"En este curso veremos las bases de python",
+    "nivel":"Inicial",
+    "duracion":7
+}
+
